@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>网易考拉登录</title>
+		<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+	</head>
+	<body>
+		<div id="top">
+			<div>
+				<h1 class="left"><img src="../img/logo.png" alt=""/></h1>
+		        <div class="right"></div>
+			</div>		    
+		</div>
+		<div id="box">			
+			<div class="box1">
+				<a href="index.html"><img src="../img/register-1.png" alt=""  class="left"></a>
+				<div class="right">
+					<div class="xx">
+					    <span class="x1">手机号登录</span><i></i><span class="x2">邮箱登录</span>						
+					</div>
+					<form action="../php/login.php" >
+						<!--<em>使用密码验证登录</em>
+						<input type="text" value="请输入手机号" class="inp1"><br>
+						<input type="text" class="inp2" ><br>
+						<input type="text" value="请输入短信验证码" class="inp3"><b>获取短信验证码</b><br>
+						<input type="submit" value="登录" class="inp5"><br>
+						<input type="checkbox" checked="checked" class="inp6"/><span>十天免登陆<a href="#">遇到问题？</a></span>-->
+						
+				    </form>
+				</div>				
+			</div>				
+		</div>
+		<div id="foot">
+			<ul>
+				<li><a href="#">About NetEase</a><i></i></li>
+				<li><a href="#">公司简介</a><i></i></li>
+				<li><a href="#">联系方法</a><i></i></li>
+				<li><a href="#">友情链接</a><i></i></li>
+				<li><a href="#">招聘信息</a><i></i></li>
+				<li><a href="#">客户服务</a><i></i></li>
+				<li><a href="#">隐私政策</a><i></i></li>
+				<li><a href="#">网络营销</a><i></i></li>
+				<li><a href="#">网易考拉</a></li>					
+			</ul>
+			<p>
+				<span>网络文化经营许可证：浙网文[2016]0155-055号</span>
+				<span>增值电信业务经营许可证：浙B2-20160288</span>
+				<span><a href="#">自营经营者信息</a></span>
+				<span>（浙）网械平台备字[2018]第00007号</span>
+			</p>
+			<p class="p1">
+				<span><img src="../img/f1.png" alt=""/> 浙公网安备 33010802002216号</span>
+				<span>网易公司版权所有©1997-2018</span>
+				<span>互联网药品信息服务资格证书编号（浙）-2017-0027 浙ICP备16011229号-6</span>
+			</p>
+			<img src="../img/f2.png" alt="" class="img1"><img src="../img/f3.png" alt="" class="img2">
+		</div>
+	</body>
+</html>
+<script src="../js/public.js"></script>
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script>
+	//选项卡:
+	var $span = $(".xx span");
+	$span.last().click(function(){
+		$("form").html(``)
+	})
+	
+</script>

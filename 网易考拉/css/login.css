@@ -1,0 +1,243 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{
+	margin:0;
+	padding:0;
+} 
+body{
+	font:12px "微软雅黑";
+}
+a{
+	/*color:#000;*/
+	text-decoration:none;
+} 
+a:hover{
+	color:#000;
+	text-decoration:underline;
+} 
+em{
+	font-style:normal;
+}
+li{
+	list-style:none;
+}
+img{
+	border:0;
+	vertical-align:middle;
+} 
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+p{
+    word-wrap:break-word;
+}
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+
+html,body{
+    width:100%;
+	height:100%;
+}
+#top{
+	width:100%;
+	height:100px;
+	border-bottom:1px solid #e8e8ea;
+}
+#top>div{
+	width:79%;
+	height:100%;
+	margin:0 auto;
+}
+#top>div>h1{
+	width:208px;
+	height:100px;
+}
+#top>div>h1 img{
+	margin-top:20px;
+}
+
+#top>div>div{
+	width:502px;
+	height:100px;
+	background-image:url(../img/top-1.png);
+}
+#box{
+	width:100%;
+	height:520px;
+	background:#f8f8f8;
+}
+#box .box1{
+	width:79%;
+	height:100%;
+	margin:0 auto;		
+}
+
+#box .box1 img{
+	margin-top:154px;
+}
+#box .box1 p{
+	display:block;
+	width:310px;
+	height:52px;
+	font-size:16px;
+	line-height:52px;
+	color:#e31436;
+	padding-left:40px;
+	background:#f8f8f8;
+	margin-top:48px;
+	border:1px solid #ddd;
+	border-bottom:none;
+}
+#box .box1 p span{
+	font-size:12px;
+	color:#333;
+	margin-left:105px;
+}
+#box .box1 p a{
+	color:#51b8f1;
+}
+/*选项卡部分 */
+#box .box1 .xx{
+	width:350px;
+	height:52px;
+	border:1px solid #eaeaea;
+	border-bottom:none;
+	margin-top:48px;
+}
+#box .box1 .xx span{
+	float:left;
+	line-height:52px;
+	text-align:center;
+	font-size:16px;
+	color:#333;
+	display:block;
+	width:174px;
+	height:20px;	
+}
+#box .box1 .xx i{
+	float:left;
+	display:block;
+	width:1px;
+	height:20px;
+	background:#ccc;
+	/*border-right:1px solid #ddd;*/
+
+	margin-right:175px;
+	margin-top:16px;
+}
+#box .box1 .xx .x2{
+	margin-left:175px;
+	margin-top:-36px;
+	
+}
+#box .box1 form{
+	width:350px;
+	height:298px;
+	border:1px solid #ddd;	
+	margin-right:14px;
+	background:#fff;
+	position:relative;
+}
+#box .box1 form input{
+	width:270px;
+	height:36px;
+	border:none;
+	border:1px solid #d5d5d5;
+	text-align:center;
+	color:#dbdbdb;
+	margin-bottom:16px;
+	margin-left:40px;
+}
+#box .box1 form .inp1{
+	margin-top:40px;
+	background:url(../img/b.png) no-repeat top 8px left 11px;
+
+}
+#box .box1 form .inp2{
+	height:28px;
+	border-radius:50px;
+	background:#eee;
+}
+#box .box1 form .inp3{
+	width:173px;
+	/*text-align:left;*/
+}
+#box .box1 form b{
+	width:96px;
+	height:36px;
+	background:#eee;
+	display:block;
+	position:absolute;
+	top:140px;
+	right:40px;
+	border:1px solid #d5d5d5;
+	border-left:none;
+	line-height:36px;
+	text-align:center;
+	
+}
+#box .box1 form .inp4{
+	background:url(../img/s.png) no-repeat top 8px left 11px;
+}
+#box .box1 form .inp5{
+	margin-top:14px;
+	background:#e31436;
+	margin-bottom:13px;
+}
+#box .box1 form .inp6{
+	width:16px;
+	height:16px;
+}
+#foot{
+	width:79%;
+	height:156px;
+	margin:0 auto;
+	padding-bottom:54px;	
+}
+#foot>ul{
+	width:100%;
+	height:12px;
+	padding-top:47px;
+}
+#foot>ul>li{
+	float:left;
+	margin-left:26px;
+}
+#foot>ul>li>a{
+	color:#666;
+	font-size:14px;
+}
+#foot>ul>li>i{
+	float:right;
+	display:block;
+	width:1px;
+	height:13px;
+	background:#996699;
+	margin-left:24px;
+	margin-top:3px;
+}
+#foot>p{
+	color:#999;
+	margin-top:16px;	
+}
+#foot>p>span{
+	margin-left:40px;
+}
+#foot>.p1{
+	margin-left:59px;
+}
+#foot>.img1{
+	margin-left:440px;
+}
+#foot>.img2{
+	margin-left:12px;
+}
+/*login   form*/
+.r{
+	color:#e31436;
+}
